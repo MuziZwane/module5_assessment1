@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "500963241590",
+    "project_id": "muzi-zwane-module5-114f3",
+    "storage_bucket": "muzi-zwane-module5-114f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500963241590:android:02d86661b7556f1d79f957",
+        "android_client_info": {
+          "package_name": "com.package.module5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500963241590-kq0tq8roji3lg1esr2dqo6novrbmsmc7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCagCaOMctXdFd4xWDCiLTIJtXvfA8y25o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500963241590-kq0tq8roji3lg1esr2dqo6novrbmsmc7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
