@@ -3,6 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
 import Signup from './components/signup';
+import Dashboard from './components/dashboard';
 import Maps from './components/maps';
 const Stack = createStackNavigator();
 function MyStack() {
@@ -23,6 +24,14 @@ function MyStack() {
         name="Signup" 
         component={Signup} 
         options={{ title: 'Signup' }}
+      />
+      <Stack.Screem
+        name:"Dashboard"
+        component={Dashboard} 
+        options={
+         { title: 'Dashboard' },
+         {headerLeft: null} 
+       }
       />
       <Stack.Screen 
        name="Maps" 
