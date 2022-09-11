@@ -8,7 +8,7 @@ import { Marker } from 'react-native-maps'
 const locations = require('./locations.json')
 const { width, height } = Dimensions.get('screen')
 
-export default class App extends React.Component {
+export default class maps extends React.Component {
   state = {
     latitude: null,
     longitude: null,
